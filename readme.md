@@ -11,7 +11,6 @@ GoogleTest для тестирования.
 - CMake (минимум 3.15)
 - fmt
 - GoogleTest
--
 
 **Установка**
 
