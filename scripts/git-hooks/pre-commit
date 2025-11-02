@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# Путь к скрипту для форматирования
+SCRIPT_PATH="scripts/git-hooks/check_format.sh"
+
+# Проверка существования скрипта
+if [[ ! -x "$SCRIPT_PATH" ]]; then
+    echo "Скрипт ${SCRIPT_PATH} не найден или не является исполняемым"
+        exit 1
+    fi
+
+# Запуск скрипта для форматирования
+$SCRIPT_PATH
