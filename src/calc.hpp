@@ -15,6 +15,7 @@ class Calculator {
     static T add(T a, T b) {
         return a + b;
     }
+
     template <typename T>
     static T mul(T a, T b) {
         return a * b;
